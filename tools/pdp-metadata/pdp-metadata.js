@@ -4,7 +4,7 @@ import he from 'he';
 import productSearchQuery from './queries/products.graphql.js';
 import { variantsFragment } from './queries/variants.graphql.js';
 
-const basePath = 'https://www.aemshop.net';
+const basePath = 'https://m2aem.webformatlabs.com';
 const configFile = `${basePath}/configs.json?sheet=prod`;
 
 
