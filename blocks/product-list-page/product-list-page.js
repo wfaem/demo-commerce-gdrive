@@ -11,7 +11,7 @@ export default async function decorate(block) {
   const storeDetails = {
     environmentId: await getConfigValue('commerce-environment-id'),
     environmentType: (await getConfigValue('commerce-endpoint')).includes('sandbox') ? 'testing' : '',
-    apiKey: await getConfigValue('commerce-x-api-key'),
+    apiKey: await getConfigValue('commerce-X-Api-Key'),
     apiUrl: await getConfigValue('commerce-endpoint'),
     websiteCode: await getConfigValue('commerce-website-code'),
     storeCode: await getConfigValue('commerce-store-code'),

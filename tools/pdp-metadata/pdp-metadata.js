@@ -16,7 +16,7 @@ async function performCatalogServiceQuery(config, query, variables) {
     'Magento-Store-View-Code': config['commerce-store-view-code'],
     'Magento-Store-Code': config['commerce-store-code'],
     'Magento-Customer-Group': config['commerce-customer-group'],
-    'x-api-key': config['commerce-x-api-key'],
+    'X-Api-Key': config['commerce-X-Api-Key'],
   };
 
   const apiCall = new URL(config['commerce-endpoint']);

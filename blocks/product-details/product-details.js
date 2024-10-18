@@ -196,7 +196,7 @@ export default async function decorate(block) {
     'Magento-Store-View-Code': await getConfigValue('commerce-store-view-code'),
     'Magento-Store-Code': await getConfigValue('commerce-store-code'),
     'Magento-Customer-Group': await getConfigValue('commerce-customer-group'),
-    'x-api-key': await getConfigValue('commerce-x-api-key'),
+    'X-Api-Key': await getConfigValue('commerce-X-Api-Key'),
   });
 
   events.on('eds/lcp', () => {

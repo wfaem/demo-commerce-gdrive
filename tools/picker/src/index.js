@@ -119,7 +119,7 @@ async function performCatalogServiceQuery(query, config, variables) {
         'Magento-Environment-Id': config['commerce-environment-id'],
         'Magento-Store-View-Code': config['commerce-store-view-code'],
         'Magento-Website-Code': config['commerce-website-code'],
-        'x-api-key': config['commerce-x-api-key'],
+        'X-Api-Key': config['commerce-X-Api-Key'],
         'Magento-Store-Code': config['commerce-store-code'],
         'Magento-Customer-Group': config['commerce-customer-group'],
         'Content-Type': 'application/json',
